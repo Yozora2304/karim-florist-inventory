@@ -2,7 +2,7 @@
 
 > Sistem Informasi Inventory Barang Berbasis Web untuk membantu pengelolaan stok barang pada Toko Bunga Karim Florist.
 
-![Karim Florist](screenshots/dashboard.png)
+![Karim Florist](Screenshots/login.png)
 
 ## Tentang Project
 
@@ -31,19 +31,23 @@ Project ini dikembangkan sebagai bagian dari implementasi dan pengembangan kemam
 
 ### Dashboard
 
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](Screenshots/dashboard.png)
 
 ### Data Produk
 
-![Data Produk](screenshots/products.png)
+![Data Produk](Screenshots/products.png)
 
 ### Barang Masuk
 
-![Barang Masuk](screenshots/incoming-items.png)
+![Barang Masuk](Screenshots/incoming-items.png)
 
 ### Barang Keluar
 
-![Barang Keluar](screenshots/outgoing-items.png)
+![Barang Keluar](Screenshots/outgoing-items.png)
+
+### Reports
+
+![Laporan](Screenshots/reports.png)
 
 ---
 
@@ -79,6 +83,47 @@ Beberapa data yang dikelola meliputi:
 ## Cara Menjalankan Project
 
 ### 1. Clone repository
-
 ```bash
 git clone https://github.com/USERNAME/TokoBunga.git
+```
+
+### 2. Masuk ke folder project
+```bash
+cd TokoBunga
+```
+
+### 3. Install dependency
+```bash
+composer install
+```
+
+### 4. Buat file .env
+Salin file .env.example menjadi .env:
+```bash
+cp .env.example .env
+```
+
+### 5. Generate application key
+```bash
+php artisan key:generate
+```
+
+### 6. Konfigurasi database
+```bash
+DB_DATABASE=tokobunga
+DB_USERNAME=superadmin
+DB_PASSWORD=super123
+```
+
+### 7. Jalankan migration
+```bash
+php artisan migrate
+```
+
+### 8. Jalankan aplikasi
+```bash
+php artisan serve
+```
+
+### then open http://127.0.0.1:8000
+
