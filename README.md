@@ -77,6 +77,7 @@ Beberapa data yang dikelola meliputi:
 - Barang Masuk
 - Barang Keluar
 - Stok Barang
+- Laporan
 
 ---
 
