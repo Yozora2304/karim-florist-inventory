@@ -35,7 +35,7 @@ Project ini dikembangkan sebagai bagian dari implementasi dan pengembangan kemam
 
 ### Data Produk
 
-![Data Produk](Screenshots/products.png)
+![Data Produk](Screenshots/product.png)
 
 ### Barang Masuk
 
