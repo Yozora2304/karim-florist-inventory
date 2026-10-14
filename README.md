@@ -126,5 +126,5 @@ php artisan migrate
 php artisan serve
 ```
 
-### then open http://127.0.0.1:8000
+### lalu buka http://127.0.0.1:8000
 
